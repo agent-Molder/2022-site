@@ -102,6 +102,11 @@
   line-height: 1.5;
 }
 
+.ctabutton {
+  @apply rounded border-eggshell-2 border-solid border
+  text-green-moss hover:border-amber hover:text-exciting-orange p-4;
+}
+
 .logo {
   height: 1em;
   margin-left: 0.5rem;
